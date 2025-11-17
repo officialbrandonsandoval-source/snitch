@@ -1,0 +1,32 @@
+'Log files:
+/Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_15_51_126Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @react-navigation/bottom-tabs@6.6.1
+Found: @react-navigation/native@7.1.20
+node_modules/@react-navigation/native
+  peer @react-navigation/native@"^7.1.20" from @react-navigation/elements@2.8.2
+  node_modules/@react-navigation/elements
+    @react-navigation/elements@"^2.8.2" from @react-navigation/native-stack@7.6.3
+    node_modules/@react-navigation/native-stack
+      @react-navigation/native-stack@"^7.6.3" from the root project
+  peer @react-navigation/native@"^7.1.20" from @react-navigation/native-stack@7.6.3
+  node_modules/@react-navigation/native-stack
+    @react-navigation/native-stack@"^7.6.3" from the root project
+  @react-navigation/native@"^7.1.20" from the root project
+
+Could not resolve dependency:
+peer @react-navigation/native@"^6.0.0" from @react-navigation/bottom-tabs@6.6.1
+node_modules/@react-navigation/bottom-tabs
+  @react-navigation/bottom-tabs@"^6.6.1" from the root project
+
+Conflicting peer dependency: @react-navigation/native@6.1.18
+node_modules/@react-navigation/native
+  peer @react-navigation/native@"^6.0.0" from @react-navigation/bottom-tabs@6.6.1
+  node_modules/@react-navigation/bottom-tabs
+    @react-navigation/bottom-tabs@"^6.6.1" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

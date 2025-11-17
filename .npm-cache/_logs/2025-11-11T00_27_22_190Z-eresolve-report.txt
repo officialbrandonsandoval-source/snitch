@@ -1,0 +1,809 @@
+'Log files:
+/Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-11T00_27_22_190Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: react-native@0.82.1
+Found: react@18.2.0
+node_modules/react
+  react@"^18.2.0" from the root project
+  peerOptional react@"*" from @expo/devtools@0.1.7
+  node_modules/@expo/devtools
+    @expo/devtools@"0.1.7" from expo@54.0.23
+    node_modules/expo
+      expo@"^54.0.23" from the root project
+      peer expo@"*" from expo-av@14.0.7
+      node_modules/expo-av
+        expo-av@"~14.0.7" from the root project
+      peer expo@"*" from expo-camera@15.0.16
+      node_modules/expo-camera
+        expo-camera@"~15.0.16" from the root project
+      peer expo@"*" from expo-crypto@13.0.2
+      node_modules/expo-crypto
+        expo-crypto@"~13.0.2" from the root project
+      peer expo@"*" from expo-file-system@17.0.1
+      node_modules/expo-file-system
+        expo-file-system@"~17.0.1" from the root project
+      peer expo@"*" from expo-location@17.0.1
+      node_modules/expo-location
+        expo-location@"~17.0.1" from the root project
+      peer expo@"*" from expo-media-library@16.0.5
+      node_modules/expo-media-library
+        expo-media-library@"~16.0.5" from the root project
+      peer expo@"*" from expo-secure-store@13.0.2
+      node_modules/expo-secure-store
+        expo-secure-store@"~13.0.2" from the root project
+      peer expo@"*" from expo-speech@12.0.2
+      node_modules/expo-speech
+        expo-speech@"~12.0.2" from the root project
+      peer expo@"*" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+      peer expo@"*" from @expo/prebuild-config@54.0.6
+      node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+        @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from @expo/metro-config@54.0.9
+      node_modules/expo/node_modules/@expo/metro-config
+        @expo/metro-config@"54.0.9" from expo@54.0.23
+        @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from babel-preset-expo@54.0.7
+      node_modules/expo/node_modules/babel-preset-expo
+        babel-preset-expo@"~54.0.7" from expo@54.0.23
+      peer expo@"*" from expo-asset@12.0.9
+      node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-constants@18.0.10
+      node_modules/expo/node_modules/expo-constants
+        expo-constants@"~18.0.10" from expo@54.0.23
+        expo-constants@"~18.0.9" from expo-asset@12.0.9
+        node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-file-system@19.0.17
+      node_modules/expo/node_modules/expo-file-system
+        expo-file-system@"~19.0.17" from expo@54.0.23
+      peer expo@"*" from expo-font@14.0.9
+      node_modules/expo/node_modules/expo-font
+        expo-font@"~14.0.9" from expo@54.0.23
+        peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+        node_modules/expo/node_modules/@expo/vector-icons
+          @expo/vector-icons@"^15.0.3" from expo@54.0.23
+      peer expo@"*" from expo-keep-awake@15.0.7
+      node_modules/expo/node_modules/expo-keep-awake
+        expo-keep-awake@"~15.0.7" from expo@54.0.23
+  peer react@">= 17.0" from @picovoice/porcupine-react-native@3.0.5
+  node_modules/@picovoice/porcupine-react-native
+    @picovoice/porcupine-react-native@"3.0.5" from the root project
+  peer react@"*" from @picovoice/react-native-voice-processor@1.2.3
+  node_modules/@picovoice/react-native-voice-processor
+    @picovoice/react-native-voice-processor@"1.2.3" from the root project
+    peer @picovoice/react-native-voice-processor@">= 1.2.3" from @picovoice/porcupine-react-native@3.0.5
+    node_modules/@picovoice/porcupine-react-native
+      @picovoice/porcupine-react-native@"3.0.5" from the root project
+  peer react@">= 18.2.0" from @react-navigation/core@7.13.0
+  node_modules/@react-navigation/core
+    @react-navigation/core@"^7.13.0" from @react-navigation/native@7.1.19
+    node_modules/@react-navigation/native
+      @react-navigation/native@"^7.1.19" from the root project
+  peer react@">= 18.2.0" from @react-navigation/native@7.1.19
+  node_modules/@react-navigation/native
+    @react-navigation/native@"^7.1.19" from the root project
+  peer react@"*" from expo@54.0.23
+  node_modules/expo
+    expo@"^54.0.23" from the root project
+    peer expo@"*" from expo-av@14.0.7
+    node_modules/expo-av
+      expo-av@"~14.0.7" from the root project
+    peer expo@"*" from expo-camera@15.0.16
+    node_modules/expo-camera
+      expo-camera@"~15.0.16" from the root project
+    peer expo@"*" from expo-crypto@13.0.2
+    node_modules/expo-crypto
+      expo-crypto@"~13.0.2" from the root project
+    peer expo@"*" from expo-file-system@17.0.1
+    node_modules/expo-file-system
+      expo-file-system@"~17.0.1" from the root project
+    peer expo@"*" from expo-location@17.0.1
+    node_modules/expo-location
+      expo-location@"~17.0.1" from the root project
+    peer expo@"*" from expo-media-library@16.0.5
+    node_modules/expo-media-library
+      expo-media-library@"~16.0.5" from the root project
+    peer expo@"*" from expo-secure-store@13.0.2
+    node_modules/expo-secure-store
+      expo-secure-store@"~13.0.2" from the root project
+    peer expo@"*" from expo-speech@12.0.2
+    node_modules/expo-speech
+      expo-speech@"~12.0.2" from the root project
+    peer expo@"*" from @expo/cli@54.0.16
+    node_modules/expo/node_modules/@expo/cli
+      @expo/cli@"54.0.16" from expo@54.0.23
+    peer expo@"*" from @expo/prebuild-config@54.0.6
+    node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+      @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+    peerOptional expo@"*" from @expo/metro-config@54.0.9
+    node_modules/expo/node_modules/@expo/metro-config
+      @expo/metro-config@"54.0.9" from expo@54.0.23
+      @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+    peerOptional expo@"*" from babel-preset-expo@54.0.7
+    node_modules/expo/node_modules/babel-preset-expo
+      babel-preset-expo@"~54.0.7" from expo@54.0.23
+    peer expo@"*" from expo-asset@12.0.9
+    node_modules/expo/node_modules/expo-asset
+      expo-asset@"~12.0.9" from expo@54.0.23
+    peer expo@"*" from expo-constants@18.0.10
+    node_modules/expo/node_modules/expo-constants
+      expo-constants@"~18.0.10" from expo@54.0.23
+      expo-constants@"~18.0.9" from expo-asset@12.0.9
+      node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.9" from expo@54.0.23
+    peer expo@"*" from expo-file-system@19.0.17
+    node_modules/expo/node_modules/expo-file-system
+      expo-file-system@"~19.0.17" from expo@54.0.23
+    peer expo@"*" from expo-font@14.0.9
+    node_modules/expo/node_modules/expo-font
+      expo-font@"~14.0.9" from expo@54.0.23
+      peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+      node_modules/expo/node_modules/@expo/vector-icons
+        @expo/vector-icons@"^15.0.3" from expo@54.0.23
+    peer expo@"*" from expo-keep-awake@15.0.7
+    node_modules/expo/node_modules/expo-keep-awake
+      expo-keep-awake@"~15.0.7" from expo@54.0.23
+  peer react@"*" from @expo/vector-icons@15.0.3
+  node_modules/expo/node_modules/@expo/vector-icons
+    @expo/vector-icons@"^15.0.3" from expo@54.0.23
+  peer react@"*" from expo-asset@12.0.9
+  node_modules/expo/node_modules/expo-asset
+    expo-asset@"~12.0.9" from expo@54.0.23
+  peer react@"*" from expo-font@14.0.9
+  node_modules/expo/node_modules/expo-font
+    expo-font@"~14.0.9" from expo@54.0.23
+    peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+    node_modules/expo/node_modules/@expo/vector-icons
+      @expo/vector-icons@"^15.0.3" from expo@54.0.23
+  peer react@"*" from expo-keep-awake@15.0.7
+  node_modules/expo/node_modules/expo-keep-awake
+    expo-keep-awake@"~15.0.7" from expo@54.0.23
+  peer react@"*" from expo-modules-core@3.0.25
+  node_modules/expo-modules-core
+    expo-modules-core@"3.0.25" from expo@54.0.23
+    node_modules/expo
+      expo@"^54.0.23" from the root project
+      peer expo@"*" from expo-av@14.0.7
+      node_modules/expo-av
+        expo-av@"~14.0.7" from the root project
+      peer expo@"*" from expo-camera@15.0.16
+      node_modules/expo-camera
+        expo-camera@"~15.0.16" from the root project
+      peer expo@"*" from expo-crypto@13.0.2
+      node_modules/expo-crypto
+        expo-crypto@"~13.0.2" from the root project
+      peer expo@"*" from expo-file-system@17.0.1
+      node_modules/expo-file-system
+        expo-file-system@"~17.0.1" from the root project
+      peer expo@"*" from expo-location@17.0.1
+      node_modules/expo-location
+        expo-location@"~17.0.1" from the root project
+      peer expo@"*" from expo-media-library@16.0.5
+      node_modules/expo-media-library
+        expo-media-library@"~16.0.5" from the root project
+      peer expo@"*" from expo-secure-store@13.0.2
+      node_modules/expo-secure-store
+        expo-secure-store@"~13.0.2" from the root project
+      peer expo@"*" from expo-speech@12.0.2
+      node_modules/expo-speech
+        expo-speech@"~12.0.2" from the root project
+      peer expo@"*" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+      peer expo@"*" from @expo/prebuild-config@54.0.6
+      node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+        @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from @expo/metro-config@54.0.9
+      node_modules/expo/node_modules/@expo/metro-config
+        @expo/metro-config@"54.0.9" from expo@54.0.23
+        @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from babel-preset-expo@54.0.7
+      node_modules/expo/node_modules/babel-preset-expo
+        babel-preset-expo@"~54.0.7" from expo@54.0.23
+      peer expo@"*" from expo-asset@12.0.9
+      node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-constants@18.0.10
+      node_modules/expo/node_modules/expo-constants
+        expo-constants@"~18.0.10" from expo@54.0.23
+        expo-constants@"~18.0.9" from expo-asset@12.0.9
+        node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-file-system@19.0.17
+      node_modules/expo/node_modules/expo-file-system
+        expo-file-system@"~19.0.17" from expo@54.0.23
+      peer expo@"*" from expo-font@14.0.9
+      node_modules/expo/node_modules/expo-font
+        expo-font@"~14.0.9" from expo@54.0.23
+        peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+        node_modules/expo/node_modules/@expo/vector-icons
+          @expo/vector-icons@"^15.0.3" from expo@54.0.23
+      peer expo@"*" from expo-keep-awake@15.0.7
+      node_modules/expo/node_modules/expo-keep-awake
+        expo-keep-awake@"~15.0.7" from expo@54.0.23
+  peer react@">=17.0.0" from react-freeze@1.0.4
+  node_modules/react-freeze
+    react-freeze@"^1.0.0" from react-native-screens@4.18.0
+    node_modules/react-native-screens
+      react-native-screens@"^4.18.0" from the root project
+  peer react@"*" from react-native-safe-area-context@5.6.2
+  node_modules/react-native-safe-area-context
+    react-native-safe-area-context@"^5.6.2" from the root project
+  peer react@"*" from react-native-screens@4.18.0
+  node_modules/react-native-screens
+    react-native-screens@"^4.18.0" from the root project
+  peer react@"*" from react-native-vision-camera@4.7.2
+  node_modules/react-native-vision-camera
+    react-native-vision-camera@"^4.5.2" from the root project
+  peer react@"*" from @react-native/virtualized-lists@0.82.1
+  node_modules/react-native/node_modules/@react-native/virtualized-lists
+    @react-native/virtualized-lists@"0.82.1" from react-native@0.82.1
+  peer react@">=16.8" from use-latest-callback@0.2.6
+  node_modules/use-latest-callback
+    use-latest-callback@"^0.2.4" from @react-navigation/core@7.13.0
+    node_modules/@react-navigation/core
+      @react-navigation/core@"^7.13.0" from @react-navigation/native@7.1.19
+      node_modules/@react-navigation/native
+        @react-navigation/native@"^7.1.19" from the root project
+    use-latest-callback@"^0.2.4" from @react-navigation/native@7.1.19
+    node_modules/@react-navigation/native
+      @react-navigation/native@"^7.1.19" from the root project
+  peer react@"^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0" from use-sync-external-store@1.6.0
+  node_modules/use-sync-external-store
+    use-sync-external-store@"^1.5.0" from @react-navigation/core@7.13.0
+    node_modules/@react-navigation/core
+      @react-navigation/core@"^7.13.0" from @react-navigation/native@7.1.19
+      node_modules/@react-navigation/native
+        @react-navigation/native@"^7.1.19" from the root project
+
+Could not resolve dependency:
+peer react@"^19.1.1" from react-native@0.82.1
+node_modules/react-native
+  react-native@"^0.82.1" from the root project
+  peerOptional react-native@"*" from @expo/devtools@0.1.7
+  node_modules/@expo/devtools
+    @expo/devtools@"0.1.7" from expo@54.0.23
+    node_modules/expo
+      expo@"^54.0.23" from the root project
+      peer expo@"*" from expo-av@14.0.7
+      node_modules/expo-av
+        expo-av@"~14.0.7" from the root project
+      peer expo@"*" from expo-camera@15.0.16
+      node_modules/expo-camera
+        expo-camera@"~15.0.16" from the root project
+      peer expo@"*" from expo-crypto@13.0.2
+      node_modules/expo-crypto
+        expo-crypto@"~13.0.2" from the root project
+      peer expo@"*" from expo-file-system@17.0.1
+      node_modules/expo-file-system
+        expo-file-system@"~17.0.1" from the root project
+      peer expo@"*" from expo-location@17.0.1
+      node_modules/expo-location
+        expo-location@"~17.0.1" from the root project
+      peer expo@"*" from expo-media-library@16.0.5
+      node_modules/expo-media-library
+        expo-media-library@"~16.0.5" from the root project
+      peer expo@"*" from expo-secure-store@13.0.2
+      node_modules/expo-secure-store
+        expo-secure-store@"~13.0.2" from the root project
+      peer expo@"*" from expo-speech@12.0.2
+      node_modules/expo-speech
+        expo-speech@"~12.0.2" from the root project
+      peer expo@"*" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+      peer expo@"*" from @expo/prebuild-config@54.0.6
+      node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+        @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from @expo/metro-config@54.0.9
+      node_modules/expo/node_modules/@expo/metro-config
+        @expo/metro-config@"54.0.9" from expo@54.0.23
+        @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from babel-preset-expo@54.0.7
+      node_modules/expo/node_modules/babel-preset-expo
+        babel-preset-expo@"~54.0.7" from expo@54.0.23
+      peer expo@"*" from expo-asset@12.0.9
+      node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-constants@18.0.10
+      node_modules/expo/node_modules/expo-constants
+        expo-constants@"~18.0.10" from expo@54.0.23
+        expo-constants@"~18.0.9" from expo-asset@12.0.9
+        node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-file-system@19.0.17
+      node_modules/expo/node_modules/expo-file-system
+        expo-file-system@"~19.0.17" from expo@54.0.23
+      peer expo@"*" from expo-font@14.0.9
+      node_modules/expo/node_modules/expo-font
+        expo-font@"~14.0.9" from expo@54.0.23
+        peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+        node_modules/expo/node_modules/@expo/vector-icons
+          @expo/vector-icons@"^15.0.3" from expo@54.0.23
+      peer expo@"*" from expo-keep-awake@15.0.7
+      node_modules/expo/node_modules/expo-keep-awake
+        expo-keep-awake@"~15.0.7" from expo@54.0.23
+  peer react-native@">= 0.63" from @picovoice/porcupine-react-native@3.0.5
+  node_modules/@picovoice/porcupine-react-native
+    @picovoice/porcupine-react-native@"3.0.5" from the root project
+  peer react-native@"*" from @picovoice/react-native-voice-processor@1.2.3
+  node_modules/@picovoice/react-native-voice-processor
+    @picovoice/react-native-voice-processor@"1.2.3" from the root project
+    peer @picovoice/react-native-voice-processor@">= 1.2.3" from @picovoice/porcupine-react-native@3.0.5
+    node_modules/@picovoice/porcupine-react-native
+      @picovoice/porcupine-react-native@"3.0.5" from the root project
+  peer react-native@"^0.0.0-0 || >=0.60 <1.0" from @react-native-async-storage/async-storage@1.23.1
+  node_modules/@react-native-async-storage/async-storage
+    @react-native-async-storage/async-storage@"1.23.1" from the root project
+    peerOptional @react-native-async-storage/async-storage@"^1.18.1" from @firebase/auth@1.11.1
+    node_modules/@firebase/auth
+      @firebase/auth@"1.11.1" from @firebase/auth-compat@0.6.1
+      node_modules/@firebase/auth-compat
+        @firebase/auth-compat@"0.6.1" from firebase@12.5.0
+        node_modules/firebase
+          firebase@"^12.5.0" from the root project
+      @firebase/auth@"1.11.1" from firebase@12.5.0
+      node_modules/firebase
+        firebase@"^12.5.0" from the root project
+  peer react-native@"*" from @react-navigation/native@7.1.19
+  node_modules/@react-navigation/native
+    @react-navigation/native@"^7.1.19" from the root project
+  peer react-native@"*" from expo@54.0.23
+  node_modules/expo
+    expo@"^54.0.23" from the root project
+    peer expo@"*" from expo-av@14.0.7
+    node_modules/expo-av
+      expo-av@"~14.0.7" from the root project
+    peer expo@"*" from expo-camera@15.0.16
+    node_modules/expo-camera
+      expo-camera@"~15.0.16" from the root project
+    peer expo@"*" from expo-crypto@13.0.2
+    node_modules/expo-crypto
+      expo-crypto@"~13.0.2" from the root project
+    peer expo@"*" from expo-file-system@17.0.1
+    node_modules/expo-file-system
+      expo-file-system@"~17.0.1" from the root project
+    peer expo@"*" from expo-location@17.0.1
+    node_modules/expo-location
+      expo-location@"~17.0.1" from the root project
+    peer expo@"*" from expo-media-library@16.0.5
+    node_modules/expo-media-library
+      expo-media-library@"~16.0.5" from the root project
+    peer expo@"*" from expo-secure-store@13.0.2
+    node_modules/expo-secure-store
+      expo-secure-store@"~13.0.2" from the root project
+    peer expo@"*" from expo-speech@12.0.2
+    node_modules/expo-speech
+      expo-speech@"~12.0.2" from the root project
+    peer expo@"*" from @expo/cli@54.0.16
+    node_modules/expo/node_modules/@expo/cli
+      @expo/cli@"54.0.16" from expo@54.0.23
+    peer expo@"*" from @expo/prebuild-config@54.0.6
+    node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+      @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+    peerOptional expo@"*" from @expo/metro-config@54.0.9
+    node_modules/expo/node_modules/@expo/metro-config
+      @expo/metro-config@"54.0.9" from expo@54.0.23
+      @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+    peerOptional expo@"*" from babel-preset-expo@54.0.7
+    node_modules/expo/node_modules/babel-preset-expo
+      babel-preset-expo@"~54.0.7" from expo@54.0.23
+    peer expo@"*" from expo-asset@12.0.9
+    node_modules/expo/node_modules/expo-asset
+      expo-asset@"~12.0.9" from expo@54.0.23
+    peer expo@"*" from expo-constants@18.0.10
+    node_modules/expo/node_modules/expo-constants
+      expo-constants@"~18.0.10" from expo@54.0.23
+      expo-constants@"~18.0.9" from expo-asset@12.0.9
+      node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.9" from expo@54.0.23
+    peer expo@"*" from expo-file-system@19.0.17
+    node_modules/expo/node_modules/expo-file-system
+      expo-file-system@"~19.0.17" from expo@54.0.23
+    peer expo@"*" from expo-font@14.0.9
+    node_modules/expo/node_modules/expo-font
+      expo-font@"~14.0.9" from expo@54.0.23
+      peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+      node_modules/expo/node_modules/@expo/vector-icons
+        @expo/vector-icons@"^15.0.3" from expo@54.0.23
+    peer expo@"*" from expo-keep-awake@15.0.7
+    node_modules/expo/node_modules/expo-keep-awake
+      expo-keep-awake@"~15.0.7" from expo@54.0.23
+  peerOptional react-native@"*" from @expo/cli@54.0.16
+  node_modules/expo/node_modules/@expo/cli
+    @expo/cli@"54.0.16" from expo@54.0.23
+  peer react-native@"*" from @expo/vector-icons@15.0.3
+  node_modules/expo/node_modules/@expo/vector-icons
+    @expo/vector-icons@"^15.0.3" from expo@54.0.23
+  peer react-native@"*" from expo-asset@12.0.9
+  node_modules/expo/node_modules/expo-asset
+    expo-asset@"~12.0.9" from expo@54.0.23
+  peer react-native@"*" from expo-constants@18.0.10
+  node_modules/expo/node_modules/expo-constants
+    expo-constants@"~18.0.10" from expo@54.0.23
+    expo-constants@"~18.0.9" from expo-asset@12.0.9
+    node_modules/expo/node_modules/expo-asset
+      expo-asset@"~12.0.9" from expo@54.0.23
+  peer react-native@"*" from expo-file-system@19.0.17
+  node_modules/expo/node_modules/expo-file-system
+    expo-file-system@"~19.0.17" from expo@54.0.23
+  peer react-native@"*" from expo-font@14.0.9
+  node_modules/expo/node_modules/expo-font
+    expo-font@"~14.0.9" from expo@54.0.23
+    peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+    node_modules/expo/node_modules/@expo/vector-icons
+      @expo/vector-icons@"^15.0.3" from expo@54.0.23
+  peer react-native@"*" from expo-modules-core@3.0.25
+  node_modules/expo-modules-core
+    expo-modules-core@"3.0.25" from expo@54.0.23
+    node_modules/expo
+      expo@"^54.0.23" from the root project
+      peer expo@"*" from expo-av@14.0.7
+      node_modules/expo-av
+        expo-av@"~14.0.7" from the root project
+      peer expo@"*" from expo-camera@15.0.16
+      node_modules/expo-camera
+        expo-camera@"~15.0.16" from the root project
+      peer expo@"*" from expo-crypto@13.0.2
+      node_modules/expo-crypto
+        expo-crypto@"~13.0.2" from the root project
+      peer expo@"*" from expo-file-system@17.0.1
+      node_modules/expo-file-system
+        expo-file-system@"~17.0.1" from the root project
+      peer expo@"*" from expo-location@17.0.1
+      node_modules/expo-location
+        expo-location@"~17.0.1" from the root project
+      peer expo@"*" from expo-media-library@16.0.5
+      node_modules/expo-media-library
+        expo-media-library@"~16.0.5" from the root project
+      peer expo@"*" from expo-secure-store@13.0.2
+      node_modules/expo-secure-store
+        expo-secure-store@"~13.0.2" from the root project
+      peer expo@"*" from expo-speech@12.0.2
+      node_modules/expo-speech
+        expo-speech@"~12.0.2" from the root project
+      peer expo@"*" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+      peer expo@"*" from @expo/prebuild-config@54.0.6
+      node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+        @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from @expo/metro-config@54.0.9
+      node_modules/expo/node_modules/@expo/metro-config
+        @expo/metro-config@"54.0.9" from expo@54.0.23
+        @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from babel-preset-expo@54.0.7
+      node_modules/expo/node_modules/babel-preset-expo
+        babel-preset-expo@"~54.0.7" from expo@54.0.23
+      peer expo@"*" from expo-asset@12.0.9
+      node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-constants@18.0.10
+      node_modules/expo/node_modules/expo-constants
+        expo-constants@"~18.0.10" from expo@54.0.23
+        expo-constants@"~18.0.9" from expo-asset@12.0.9
+        node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-file-system@19.0.17
+      node_modules/expo/node_modules/expo-file-system
+        expo-file-system@"~19.0.17" from expo@54.0.23
+      peer expo@"*" from expo-font@14.0.9
+      node_modules/expo/node_modules/expo-font
+        expo-font@"~14.0.9" from expo@54.0.23
+        peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+        node_modules/expo/node_modules/@expo/vector-icons
+          @expo/vector-icons@"^15.0.3" from expo@54.0.23
+      peer expo@"*" from expo-keep-awake@15.0.7
+      node_modules/expo/node_modules/expo-keep-awake
+        expo-keep-awake@"~15.0.7" from expo@54.0.23
+  peer react-native@"*" from react-native-safe-area-context@5.6.2
+  node_modules/react-native-safe-area-context
+    react-native-safe-area-context@"^5.6.2" from the root project
+  peer react-native@"*" from react-native-screens@4.18.0
+  node_modules/react-native-screens
+    react-native-screens@"^4.18.0" from the root project
+  peer react-native@"*" from react-native-vision-camera@4.7.2
+  node_modules/react-native-vision-camera
+    react-native-vision-camera@"^4.5.2" from the root project
+  peer react-native@"*" from @react-native/virtualized-lists@0.82.1
+  node_modules/react-native/node_modules/@react-native/virtualized-lists
+    @react-native/virtualized-lists@"0.82.1" from react-native@0.82.1
+
+Conflicting peer dependency: react@19.2.0
+node_modules/react
+  peer react@"^19.1.1" from react-native@0.82.1
+  node_modules/react-native
+    react-native@"^0.82.1" from the root project
+    peerOptional react-native@"*" from @expo/devtools@0.1.7
+    node_modules/@expo/devtools
+      @expo/devtools@"0.1.7" from expo@54.0.23
+      node_modules/expo
+        expo@"^54.0.23" from the root project
+        peer expo@"*" from expo-av@14.0.7
+        node_modules/expo-av
+          expo-av@"~14.0.7" from the root project
+        peer expo@"*" from expo-camera@15.0.16
+        node_modules/expo-camera
+          expo-camera@"~15.0.16" from the root project
+        peer expo@"*" from expo-crypto@13.0.2
+        node_modules/expo-crypto
+          expo-crypto@"~13.0.2" from the root project
+        peer expo@"*" from expo-file-system@17.0.1
+        node_modules/expo-file-system
+          expo-file-system@"~17.0.1" from the root project
+        peer expo@"*" from expo-location@17.0.1
+        node_modules/expo-location
+          expo-location@"~17.0.1" from the root project
+        peer expo@"*" from expo-media-library@16.0.5
+        node_modules/expo-media-library
+          expo-media-library@"~16.0.5" from the root project
+        peer expo@"*" from expo-secure-store@13.0.2
+        node_modules/expo-secure-store
+          expo-secure-store@"~13.0.2" from the root project
+        peer expo@"*" from expo-speech@12.0.2
+        node_modules/expo-speech
+          expo-speech@"~12.0.2" from the root project
+        peer expo@"*" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+        peer expo@"*" from @expo/prebuild-config@54.0.6
+        node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+          @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+          node_modules/expo/node_modules/@expo/cli
+            @expo/cli@"54.0.16" from expo@54.0.23
+        peerOptional expo@"*" from @expo/metro-config@54.0.9
+        node_modules/expo/node_modules/@expo/metro-config
+          @expo/metro-config@"54.0.9" from expo@54.0.23
+          @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+          node_modules/expo/node_modules/@expo/cli
+            @expo/cli@"54.0.16" from expo@54.0.23
+        peerOptional expo@"*" from babel-preset-expo@54.0.7
+        node_modules/expo/node_modules/babel-preset-expo
+          babel-preset-expo@"~54.0.7" from expo@54.0.23
+        peer expo@"*" from expo-asset@12.0.9
+        node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.9" from expo@54.0.23
+        peer expo@"*" from expo-constants@18.0.10
+        node_modules/expo/node_modules/expo-constants
+          expo-constants@"~18.0.10" from expo@54.0.23
+          expo-constants@"~18.0.9" from expo-asset@12.0.9
+          node_modules/expo/node_modules/expo-asset
+            expo-asset@"~12.0.9" from expo@54.0.23
+        peer expo@"*" from expo-file-system@19.0.17
+        node_modules/expo/node_modules/expo-file-system
+          expo-file-system@"~19.0.17" from expo@54.0.23
+        peer expo@"*" from expo-font@14.0.9
+        node_modules/expo/node_modules/expo-font
+          expo-font@"~14.0.9" from expo@54.0.23
+          peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+          node_modules/expo/node_modules/@expo/vector-icons
+            @expo/vector-icons@"^15.0.3" from expo@54.0.23
+        peer expo@"*" from expo-keep-awake@15.0.7
+        node_modules/expo/node_modules/expo-keep-awake
+          expo-keep-awake@"~15.0.7" from expo@54.0.23
+    peer react-native@">= 0.63" from @picovoice/porcupine-react-native@3.0.5
+    node_modules/@picovoice/porcupine-react-native
+      @picovoice/porcupine-react-native@"3.0.5" from the root project
+    peer react-native@"*" from @picovoice/react-native-voice-processor@1.2.3
+    node_modules/@picovoice/react-native-voice-processor
+      @picovoice/react-native-voice-processor@"1.2.3" from the root project
+      peer @picovoice/react-native-voice-processor@">= 1.2.3" from @picovoice/porcupine-react-native@3.0.5
+      node_modules/@picovoice/porcupine-react-native
+        @picovoice/porcupine-react-native@"3.0.5" from the root project
+    peer react-native@"^0.0.0-0 || >=0.60 <1.0" from @react-native-async-storage/async-storage@1.23.1
+    node_modules/@react-native-async-storage/async-storage
+      @react-native-async-storage/async-storage@"1.23.1" from the root project
+      peerOptional @react-native-async-storage/async-storage@"^1.18.1" from @firebase/auth@1.11.1
+      node_modules/@firebase/auth
+        @firebase/auth@"1.11.1" from @firebase/auth-compat@0.6.1
+        node_modules/@firebase/auth-compat
+          @firebase/auth-compat@"0.6.1" from firebase@12.5.0
+          node_modules/firebase
+            firebase@"^12.5.0" from the root project
+        @firebase/auth@"1.11.1" from firebase@12.5.0
+        node_modules/firebase
+          firebase@"^12.5.0" from the root project
+    peer react-native@"*" from @react-navigation/native@7.1.19
+    node_modules/@react-navigation/native
+      @react-navigation/native@"^7.1.19" from the root project
+    peer react-native@"*" from expo@54.0.23
+    node_modules/expo
+      expo@"^54.0.23" from the root project
+      peer expo@"*" from expo-av@14.0.7
+      node_modules/expo-av
+        expo-av@"~14.0.7" from the root project
+      peer expo@"*" from expo-camera@15.0.16
+      node_modules/expo-camera
+        expo-camera@"~15.0.16" from the root project
+      peer expo@"*" from expo-crypto@13.0.2
+      node_modules/expo-crypto
+        expo-crypto@"~13.0.2" from the root project
+      peer expo@"*" from expo-file-system@17.0.1
+      node_modules/expo-file-system
+        expo-file-system@"~17.0.1" from the root project
+      peer expo@"*" from expo-location@17.0.1
+      node_modules/expo-location
+        expo-location@"~17.0.1" from the root project
+      peer expo@"*" from expo-media-library@16.0.5
+      node_modules/expo-media-library
+        expo-media-library@"~16.0.5" from the root project
+      peer expo@"*" from expo-secure-store@13.0.2
+      node_modules/expo-secure-store
+        expo-secure-store@"~13.0.2" from the root project
+      peer expo@"*" from expo-speech@12.0.2
+      node_modules/expo-speech
+        expo-speech@"~12.0.2" from the root project
+      peer expo@"*" from @expo/cli@54.0.16
+      node_modules/expo/node_modules/@expo/cli
+        @expo/cli@"54.0.16" from expo@54.0.23
+      peer expo@"*" from @expo/prebuild-config@54.0.6
+      node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+        @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from @expo/metro-config@54.0.9
+      node_modules/expo/node_modules/@expo/metro-config
+        @expo/metro-config@"54.0.9" from expo@54.0.23
+        @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+      peerOptional expo@"*" from babel-preset-expo@54.0.7
+      node_modules/expo/node_modules/babel-preset-expo
+        babel-preset-expo@"~54.0.7" from expo@54.0.23
+      peer expo@"*" from expo-asset@12.0.9
+      node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-constants@18.0.10
+      node_modules/expo/node_modules/expo-constants
+        expo-constants@"~18.0.10" from expo@54.0.23
+        expo-constants@"~18.0.9" from expo-asset@12.0.9
+        node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.9" from expo@54.0.23
+      peer expo@"*" from expo-file-system@19.0.17
+      node_modules/expo/node_modules/expo-file-system
+        expo-file-system@"~19.0.17" from expo@54.0.23
+      peer expo@"*" from expo-font@14.0.9
+      node_modules/expo/node_modules/expo-font
+        expo-font@"~14.0.9" from expo@54.0.23
+        peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+        node_modules/expo/node_modules/@expo/vector-icons
+          @expo/vector-icons@"^15.0.3" from expo@54.0.23
+      peer expo@"*" from expo-keep-awake@15.0.7
+      node_modules/expo/node_modules/expo-keep-awake
+        expo-keep-awake@"~15.0.7" from expo@54.0.23
+    peerOptional react-native@"*" from @expo/cli@54.0.16
+    node_modules/expo/node_modules/@expo/cli
+      @expo/cli@"54.0.16" from expo@54.0.23
+    peer react-native@"*" from @expo/vector-icons@15.0.3
+    node_modules/expo/node_modules/@expo/vector-icons
+      @expo/vector-icons@"^15.0.3" from expo@54.0.23
+    peer react-native@"*" from expo-asset@12.0.9
+    node_modules/expo/node_modules/expo-asset
+      expo-asset@"~12.0.9" from expo@54.0.23
+    peer react-native@"*" from expo-constants@18.0.10
+    node_modules/expo/node_modules/expo-constants
+      expo-constants@"~18.0.10" from expo@54.0.23
+      expo-constants@"~18.0.9" from expo-asset@12.0.9
+      node_modules/expo/node_modules/expo-asset
+        expo-asset@"~12.0.9" from expo@54.0.23
+    peer react-native@"*" from expo-file-system@19.0.17
+    node_modules/expo/node_modules/expo-file-system
+      expo-file-system@"~19.0.17" from expo@54.0.23
+    peer react-native@"*" from expo-font@14.0.9
+    node_modules/expo/node_modules/expo-font
+      expo-font@"~14.0.9" from expo@54.0.23
+      peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+      node_modules/expo/node_modules/@expo/vector-icons
+        @expo/vector-icons@"^15.0.3" from expo@54.0.23
+    peer react-native@"*" from expo-modules-core@3.0.25
+    node_modules/expo-modules-core
+      expo-modules-core@"3.0.25" from expo@54.0.23
+      node_modules/expo
+        expo@"^54.0.23" from the root project
+        peer expo@"*" from expo-av@14.0.7
+        node_modules/expo-av
+          expo-av@"~14.0.7" from the root project
+        peer expo@"*" from expo-camera@15.0.16
+        node_modules/expo-camera
+          expo-camera@"~15.0.16" from the root project
+        peer expo@"*" from expo-crypto@13.0.2
+        node_modules/expo-crypto
+          expo-crypto@"~13.0.2" from the root project
+        peer expo@"*" from expo-file-system@17.0.1
+        node_modules/expo-file-system
+          expo-file-system@"~17.0.1" from the root project
+        peer expo@"*" from expo-location@17.0.1
+        node_modules/expo-location
+          expo-location@"~17.0.1" from the root project
+        peer expo@"*" from expo-media-library@16.0.5
+        node_modules/expo-media-library
+          expo-media-library@"~16.0.5" from the root project
+        peer expo@"*" from expo-secure-store@13.0.2
+        node_modules/expo-secure-store
+          expo-secure-store@"~13.0.2" from the root project
+        peer expo@"*" from expo-speech@12.0.2
+        node_modules/expo-speech
+          expo-speech@"~12.0.2" from the root project
+        peer expo@"*" from @expo/cli@54.0.16
+        node_modules/expo/node_modules/@expo/cli
+          @expo/cli@"54.0.16" from expo@54.0.23
+        peer expo@"*" from @expo/prebuild-config@54.0.6
+        node_modules/expo/node_modules/@expo/cli/node_modules/@expo/prebuild-config
+          @expo/prebuild-config@"^54.0.6" from @expo/cli@54.0.16
+          node_modules/expo/node_modules/@expo/cli
+            @expo/cli@"54.0.16" from expo@54.0.23
+        peerOptional expo@"*" from @expo/metro-config@54.0.9
+        node_modules/expo/node_modules/@expo/metro-config
+          @expo/metro-config@"54.0.9" from expo@54.0.23
+          @expo/metro-config@"~54.0.9" from @expo/cli@54.0.16
+          node_modules/expo/node_modules/@expo/cli
+            @expo/cli@"54.0.16" from expo@54.0.23
+        peerOptional expo@"*" from babel-preset-expo@54.0.7
+        node_modules/expo/node_modules/babel-preset-expo
+          babel-preset-expo@"~54.0.7" from expo@54.0.23
+        peer expo@"*" from expo-asset@12.0.9
+        node_modules/expo/node_modules/expo-asset
+          expo-asset@"~12.0.9" from expo@54.0.23
+        peer expo@"*" from expo-constants@18.0.10
+        node_modules/expo/node_modules/expo-constants
+          expo-constants@"~18.0.10" from expo@54.0.23
+          expo-constants@"~18.0.9" from expo-asset@12.0.9
+          node_modules/expo/node_modules/expo-asset
+            expo-asset@"~12.0.9" from expo@54.0.23
+        peer expo@"*" from expo-file-system@19.0.17
+        node_modules/expo/node_modules/expo-file-system
+          expo-file-system@"~19.0.17" from expo@54.0.23
+        peer expo@"*" from expo-font@14.0.9
+        node_modules/expo/node_modules/expo-font
+          expo-font@"~14.0.9" from expo@54.0.23
+          peer expo-font@">=14.0.4" from @expo/vector-icons@15.0.3
+          node_modules/expo/node_modules/@expo/vector-icons
+            @expo/vector-icons@"^15.0.3" from expo@54.0.23
+        peer expo@"*" from expo-keep-awake@15.0.7
+        node_modules/expo/node_modules/expo-keep-awake
+          expo-keep-awake@"~15.0.7" from expo@54.0.23
+    peer react-native@"*" from react-native-safe-area-context@5.6.2
+    node_modules/react-native-safe-area-context
+      react-native-safe-area-context@"^5.6.2" from the root project
+    peer react-native@"*" from react-native-screens@4.18.0
+    node_modules/react-native-screens
+      react-native-screens@"^4.18.0" from the root project
+    peer react-native@"*" from react-native-vision-camera@4.7.2
+    node_modules/react-native-vision-camera
+      react-native-vision-camera@"^4.5.2" from the root project
+    peer react-native@"*" from @react-native/virtualized-lists@0.82.1
+    node_modules/react-native/node_modules/@react-native/virtualized-lists
+      @react-native/virtualized-lists@"0.82.1" from react-native@0.82.1
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

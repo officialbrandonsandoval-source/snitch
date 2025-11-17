@@ -1,0 +1,19 @@
+0 verbose cli /Users/brandonsandoval/.nvm/versions/node/v20.19.5/bin/node /Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/brandonsandoval/Snitch/.npmrc
+5 silly config load:file:/Users/brandonsandoval/.npmrc
+6 silly config load:file:/Users/brandonsandoval/.nvm/versions/node/v20.19.5/etc/npmrc
+7 verbose title npm exec expo run:ios
+8 verbose argv "exec" "--" "expo" "run:ios"
+9 verbose logfile logs-max:10 dir:/Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_41_01_027Z-
+10 verbose logfile /Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_41_01_027Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd /Users/brandonsandoval/Snitch
+14 verbose os Darwin 24.6.0
+15 verbose node v20.19.5
+16 verbose npm  v10.8.2
+17 verbose exit 1
+18 verbose code 1

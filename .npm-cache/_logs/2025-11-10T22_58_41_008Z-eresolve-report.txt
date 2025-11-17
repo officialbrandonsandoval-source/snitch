@@ -1,0 +1,18 @@
+'Log files:
+/Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-10T22_58_41_008Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: snitch@1.9.0
+Found: @picovoice/react-native-voice-processor@undefined
+node_modules/@picovoice/react-native-voice-processor
+  @picovoice/react-native-voice-processor@"^3.0.4" from the root project
+
+Could not resolve dependency:
+peer @picovoice/react-native-voice-processor@">= 1.2.3" from @picovoice/porcupine-react-native@3.0.5
+node_modules/@picovoice/porcupine-react-native
+  @picovoice/porcupine-react-native@"^3.0.4" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

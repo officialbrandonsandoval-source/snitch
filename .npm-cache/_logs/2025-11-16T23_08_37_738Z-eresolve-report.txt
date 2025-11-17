@@ -1,0 +1,30 @@
+'Log files:
+/Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-16T23_08_37_738Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: snitch@1.9.1
+Found: react@18.3.1
+node_modules/react
+  react@"^18.2.0" from the root project
+  peer react@"*" from @react-navigation/bottom-tabs@6.6.1
+  node_modules/@react-navigation/bottom-tabs
+    @react-navigation/bottom-tabs@"^6.6.1" from the root project
+  peer react@">= 18.2.0" from @react-navigation/native@7.1.20
+  node_modules/@react-navigation/native
+    @react-navigation/native@"^7.1.19" from the root project
+
+Could not resolve dependency:
+peer react@"^19.1.1" from react-native@0.82.1
+node_modules/react-native
+  react-native@"^0.82.1" from the root project
+  peer react-native@"*" from @react-navigation/bottom-tabs@6.6.1
+  node_modules/@react-navigation/bottom-tabs
+    @react-navigation/bottom-tabs@"^6.6.1" from the root project
+  peer react-native@"*" from @react-navigation/native@7.1.20
+  node_modules/@react-navigation/native
+    @react-navigation/native@"^7.1.19" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

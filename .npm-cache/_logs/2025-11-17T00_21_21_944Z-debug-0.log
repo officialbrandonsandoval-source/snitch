@@ -1,0 +1,80 @@
+0 verbose cli /Users/brandonsandoval/.nvm/versions/node/v20.19.5/bin/node /Users/brandonsandoval/.nvm/versions/node/v20.19.5/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/brandonsandoval/Snitch/.npmrc
+5 silly config load:file:/Users/brandonsandoval/.npmrc
+6 silly config load:file:/Users/brandonsandoval/.nvm/versions/node/v20.19.5/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_21_21_944Z-
+10 verbose logfile /Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_21_21_944Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @react-native-async-storage/async-storage@1.23.1
+16 silly packumentCache full:https://registry.npmjs.org/@react-native-async-storage%2fasync-storage cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@react-native-async-storage%2fasync-storage 325ms (cache updated)
+18 silly packumentCache full:https://registry.npmjs.org/@react-native-async-storage%2fasync-storage set size:undefined disposed:false
+19 silly fetch manifest react-native@^0.82.1
+20 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react-native 82ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/react-native set size:14385278 disposed:false
+23 silly fetch manifest @types/react@^19.1.1
+24 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@types%2freact 69ms (cache revalidated)
+26 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2520331 disposed:false
+27 silly fetch manifest react@^18.2.0
+28 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/react 100ms (cache revalidated)
+30 silly packumentCache full:https://registry.npmjs.org/react set size:6268071 disposed:false
+31 silly fetch manifest react@^19.1.1
+32 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/react 9ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/react set size:6268071 disposed:false
+35 verbose stack Error: unable to resolve dependency tree
+35 verbose stack     at #failPeerConflict (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1360:25)
+35 verbose stack     at #loadPeerSet (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1326:33)
+35 verbose stack     at async #loadPeerSet (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:1305:23)
+35 verbose stack     at async #buildDepStep (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:901:11)
+35 verbose stack     at async Arborist.buildIdealTree (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+35 verbose stack     at async Promise.all (index 1)
+35 verbose stack     at async Arborist.reify (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+35 verbose stack     at async Install.exec (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/commands/install.js:150:5)
+35 verbose stack     at async Npm.exec (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/npm.js:207:9)
+35 verbose stack     at async module.exports (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/cli/entry.js:74:5)
+36 error code ERESOLVE
+37 error ERESOLVE unable to resolve dependency tree
+38 error
+39 error While resolving: snitch@1.9.1
+39 error Found: react@18.3.1[2m[22m
+39 error [2mnode_modules/react[22m
+39 error   react@"^18.2.0" from the root project
+39 error
+39 error Could not resolve dependency:
+39 error [95mpeer[39m react@"^19.1.1" from react-native@0.82.1[2m[22m
+39 error [2mnode_modules/react-native[22m
+39 error   react-native@"^0.82.1" from the root project
+39 error   [95mpeer[39m react-native@"^0.0.0-0 || >=0.60 <1.0" from @react-native-async-storage/async-storage@1.23.1[2m[22m
+39 error   [2mnode_modules/@react-native-async-storage/async-storage[22m
+39 error     @react-native-async-storage/async-storage@"1.23.1" from the root project
+39 error
+39 error Fix the upstream dependency conflict, or retry
+39 error this command with --force or --legacy-peer-deps
+39 error to accept an incorrect (and potentially broken) dependency resolution.
+40 error
+40 error
+40 error For a full report see:
+40 error /Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_21_21_944Z-eresolve-report.txt
+41 silly unfinished npm timer reify 1763338882181
+42 silly unfinished npm timer reify:loadTrees 1763338882183
+43 silly unfinished npm timer idealTree:buildDeps 1763338882191
+44 silly unfinished npm timer idealTree:#root 1763338882192
+45 verbose cwd /Users/brandonsandoval/Snitch
+46 verbose os Darwin 24.6.0
+47 verbose node v20.19.5
+48 verbose npm  v10.8.2
+49 verbose exit 1
+50 verbose code 1
+51 error A complete log of this run can be found in: /Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_21_21_944Z-debug-0.log

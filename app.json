@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Snitch",
+    "slug": "snitch",
+    "version": "1.9.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourname.snitch"
+    },
+    "android": {
+      "package": "com.yourname.snitch"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-location"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id-or-delete-this"
+      }
+    }
+  }
+}

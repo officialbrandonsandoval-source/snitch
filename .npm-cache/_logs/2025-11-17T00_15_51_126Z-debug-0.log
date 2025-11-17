@@ -1,0 +1,429 @@
+0 verbose cli /Users/brandonsandoval/.nvm/versions/node/v20.19.5/bin/node /Users/brandonsandoval/.nvm/versions/node/v20.19.5/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/brandonsandoval/Snitch/.npmrc
+5 silly config load:file:/Users/brandonsandoval/.npmrc
+6 silly config load:file:/Users/brandonsandoval/.nvm/versions/node/v20.19.5/etc/npmrc
+7 verbose title npm install @react-native-community/cli
+8 verbose argv "install" "--save-dev" "@react-native-community/cli"
+9 verbose logfile logs-max:10 dir:/Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_15_51_126Z-
+10 verbose logfile /Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_15_51_126Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @react-native-community/cli@*
+16 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli 425ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli set size:1023228 disposed:false
+19 silly placeDep ROOT @react-native-community/cli@20.0.2 OK for: snitch@1.9.1 want: *
+20 silly fetch manifest execa@^5.0.0
+21 silly packumentCache full:https://registry.npmjs.org/execa cache-miss
+22 silly fetch manifest semver@^7.5.2
+23 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+24 silly fetch manifest find-up@^5.0.0
+25 silly packumentCache full:https://registry.npmjs.org/find-up cache-miss
+26 silly fetch manifest fs-extra@^8.1.0
+27 silly packumentCache full:https://registry.npmjs.org/fs-extra cache-miss
+28 silly fetch manifest commander@^9.4.1
+29 silly packumentCache full:https://registry.npmjs.org/commander cache-miss
+30 silly fetch manifest @react-native-community/cli-clean@20.0.2
+31 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-clean cache-miss
+32 silly fetch manifest @react-native-community/cli-tools@20.0.2
+33 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-tools cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/semver 98ms (cache revalidated)
+35 silly packumentCache full:https://registry.npmjs.org/semver set size:226907 disposed:false
+36 silly fetch manifest @react-native-community/cli-types@20.0.2
+37 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-types cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/find-up 194ms (cache revalidated)
+39 silly packumentCache full:https://registry.npmjs.org/find-up set size:42620 disposed:false
+40 silly fetch manifest @react-native-community/cli-config@20.0.2
+41 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/execa 211ms (cache revalidated)
+43 silly packumentCache full:https://registry.npmjs.org/execa set size:177243 disposed:false
+44 silly fetch manifest @react-native-community/cli-doctor@20.0.2
+45 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-doctor cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/fs-extra 225ms (cache revalidated)
+47 silly packumentCache full:https://registry.npmjs.org/fs-extra set size:227939 disposed:false
+48 silly fetch manifest @react-native-community/cli-server-api@20.0.2
+49 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-server-api cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/commander 228ms (cache revalidated)
+51 silly packumentCache full:https://registry.npmjs.org/commander set size:345426 disposed:false
+52 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-server-api 78ms (cache revalidated)
+53 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-server-api set size:613056 disposed:false
+54 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-clean 312ms (cache revalidated)
+55 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-clean set size:494656 disposed:false
+56 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-config 135ms (cache revalidated)
+57 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config set size:549124 disposed:false
+58 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-types 240ms (cache revalidated)
+59 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-types set size:512975 disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-tools 382ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-tools set size:708549 disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-doctor 208ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-doctor set size:676455 disposed:false
+64 silly placeDep ROOT @react-native-community/cli-clean@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+65 silly placeDep ROOT @react-native-community/cli-config@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+66 silly placeDep ROOT @react-native-community/cli-doctor@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+67 silly placeDep ROOT @react-native-community/cli-server-api@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+68 silly placeDep ROOT @react-native-community/cli-tools@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+69 silly placeDep ROOT @react-native-community/cli-types@20.0.2 OK for: @react-native-community/cli@20.0.2 want: 20.0.2
+70 silly placeDep node_modules/@react-native-community/cli commander@9.5.0 OK for: @react-native-community/cli@20.0.2 want: ^9.4.1
+71 silly placeDep ROOT execa@5.1.1 OK for: @react-native-community/cli@20.0.2 want: ^5.0.0
+72 silly placeDep node_modules/@react-native-community/cli find-up@5.0.0 OK for: @react-native-community/cli@20.0.2 want: ^5.0.0
+73 silly placeDep ROOT fs-extra@8.1.0 OK for: @react-native-community/cli@20.0.2 want: ^8.1.0
+74 silly placeDep node_modules/@react-native-community/cli semver@7.7.3 OK for: @react-native-community/cli@20.0.2 want: ^7.5.2
+75 silly fetch manifest fast-glob@^3.3.2
+76 silly packumentCache full:https://registry.npmjs.org/fast-glob cache-miss
+77 silly fetch manifest joi@^17.2.1
+78 silly packumentCache full:https://registry.npmjs.org/joi cache-miss
+79 silly fetch manifest fast-glob@^3.3.2
+80 silly packumentCache full:https://registry.npmjs.org/fast-glob cache-miss
+81 silly fetch manifest cosmiconfig@^9.0.0
+82 silly packumentCache full:https://registry.npmjs.org/cosmiconfig cache-miss
+83 silly fetch manifest ora@^5.4.1
+84 silly packumentCache full:https://registry.npmjs.org/ora cache-miss
+85 silly fetch manifest envinfo@^7.13.0
+86 silly packumentCache full:https://registry.npmjs.org/envinfo cache-miss
+87 silly fetch manifest command-exists@^1.2.8
+88 silly packumentCache full:https://registry.npmjs.org/command-exists cache-miss
+89 http fetch GET 200 https://registry.npmjs.org/fast-glob 60ms (cache revalidated)
+90 silly packumentCache full:https://registry.npmjs.org/fast-glob set size:220556 disposed:false
+91 silly fetch manifest node-stream-zip@^1.9.1
+92 silly packumentCache full:https://registry.npmjs.org/node-stream-zip cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/command-exists 65ms (cache revalidated)
+94 silly packumentCache full:https://registry.npmjs.org/command-exists set size:31903 disposed:false
+95 silly fetch manifest @react-native-community/cli-platform-ios@20.0.2
+96 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-ios cache-miss
+97 http fetch GET 200 https://registry.npmjs.org/fast-glob 72ms (cache revalidated)
+98 silly packumentCache full:https://registry.npmjs.org/fast-glob set size:220556 disposed:false
+99 silly packumentCache full:https://registry.npmjs.org/fast-glob dispose
+100 silly fetch manifest @react-native-community/cli-platform-apple@20.0.2
+101 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-apple cache-miss
+102 http fetch GET 200 https://registry.npmjs.org/envinfo 71ms (cache revalidated)
+103 silly packumentCache full:https://registry.npmjs.org/envinfo set size:281603 disposed:false
+104 silly fetch manifest @react-native-community/cli-platform-android@20.0.2
+105 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-android cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/cosmiconfig 75ms (cache revalidated)
+107 silly packumentCache full:https://registry.npmjs.org/cosmiconfig set size:275399 disposed:false
+108 silly fetch manifest ws@^6.2.3
+109 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+110 http fetch GET 200 https://registry.npmjs.org/joi 78ms (cache revalidated)
+111 silly packumentCache full:https://registry.npmjs.org/joi set size:505847 disposed:false
+112 silly fetch manifest open@^6.2.0
+113 silly packumentCache full:https://registry.npmjs.org/open cache-miss
+114 http fetch GET 200 https://registry.npmjs.org/ora 129ms (cache revalidated)
+115 silly packumentCache full:https://registry.npmjs.org/ora set size:134628 disposed:false
+116 silly fetch manifest nocache@^3.0.1
+117 silly packumentCache full:https://registry.npmjs.org/nocache cache-miss
+118 http fetch GET 200 https://registry.npmjs.org/ws 70ms (cache revalidated)
+119 silly packumentCache full:https://registry.npmjs.org/ws set size:410885 disposed:false
+120 silly fetch manifest body-parser@^1.20.3
+121 silly packumentCache full:https://registry.npmjs.org/body-parser cache-miss
+122 http fetch GET 200 https://registry.npmjs.org/node-stream-zip 104ms (cache revalidated)
+123 silly packumentCache full:https://registry.npmjs.org/node-stream-zip set size:112616 disposed:false
+124 silly fetch manifest errorhandler@^1.5.1
+125 silly packumentCache full:https://registry.npmjs.org/errorhandler cache-miss
+126 http fetch GET 200 https://registry.npmjs.org/open 108ms (cache revalidated)
+127 silly packumentCache full:https://registry.npmjs.org/open set size:136392 disposed:false
+128 silly fetch manifest mime@^2.4.1
+129 silly packumentCache full:https://registry.npmjs.org/mime cache-miss
+130 http fetch GET 200 https://registry.npmjs.org/body-parser 56ms (cache revalidated)
+131 silly packumentCache full:https://registry.npmjs.org/body-parser set size:209501 disposed:false
+132 silly fetch manifest appdirsjs@^1.2.4
+133 silly packumentCache full:https://registry.npmjs.org/appdirsjs cache-miss
+134 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-platform-android 151ms (cache revalidated)
+135 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-android set size:941435 disposed:false
+136 silly fetch manifest launch-editor@^2.9.1
+137 silly packumentCache full:https://registry.npmjs.org/launch-editor cache-miss
+138 http fetch GET 200 https://registry.npmjs.org/nocache 104ms (cache revalidated)
+139 silly packumentCache full:https://registry.npmjs.org/nocache set size:31710 disposed:false
+140 silly fetch manifest @vscode/sudo-prompt@^9.0.0
+141 silly packumentCache full:https://registry.npmjs.org/@vscode%2fsudo-prompt cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/mime 58ms (cache revalidated)
+143 silly packumentCache full:https://registry.npmjs.org/mime set size:119236 disposed:false
+144 silly fetch manifest onetime@^5.1.2
+145 silly packumentCache full:https://registry.npmjs.org/onetime cache-miss
+146 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-platform-ios 210ms (cache revalidated)
+147 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-ios set size:875589 disposed:false
+148 silly fetch manifest is-stream@^2.0.0
+149 silly packumentCache full:https://registry.npmjs.org/is-stream cache-miss
+150 http fetch GET 200 https://registry.npmjs.org/errorhandler 113ms (cache revalidated)
+151 silly packumentCache full:https://registry.npmjs.org/errorhandler set size:53239 disposed:false
+152 silly fetch manifest get-stream@^6.0.0
+153 silly packumentCache full:https://registry.npmjs.org/get-stream cache-miss
+154 http fetch GET 200 https://registry.npmjs.org/launch-editor 59ms (cache revalidated)
+155 silly packumentCache full:https://registry.npmjs.org/launch-editor set size:37001 disposed:false
+156 silly fetch manifest npm-run-path@^4.0.1
+157 silly packumentCache full:https://registry.npmjs.org/npm-run-path cache-miss
+158 http fetch GET 200 https://registry.npmjs.org/onetime 63ms (cache revalidated)
+159 silly packumentCache full:https://registry.npmjs.org/onetime set size:30525 disposed:false
+160 silly fetch manifest human-signals@^2.1.0
+161 silly packumentCache full:https://registry.npmjs.org/human-signals cache-miss
+162 http fetch GET 200 https://registry.npmjs.org/appdirsjs 112ms (cache revalidated)
+163 silly packumentCache full:https://registry.npmjs.org/appdirsjs set size:27386 disposed:false
+164 silly fetch manifest strip-final-newline@^2.0.0
+165 silly packumentCache full:https://registry.npmjs.org/strip-final-newline cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/npm-run-path 61ms (cache revalidated)
+167 silly packumentCache full:https://registry.npmjs.org/npm-run-path set size:33596 disposed:false
+168 silly fetch manifest locate-path@^6.0.0
+169 silly packumentCache full:https://registry.npmjs.org/locate-path cache-miss
+170 http fetch GET 200 https://registry.npmjs.org/is-stream 70ms (cache revalidated)
+171 silly packumentCache full:https://registry.npmjs.org/is-stream set size:18582 disposed:false
+172 silly fetch manifest jsonfile@^4.0.0
+173 silly packumentCache full:https://registry.npmjs.org/jsonfile cache-miss
+174 http fetch GET 200 https://registry.npmjs.org/get-stream 70ms (cache revalidated)
+175 silly packumentCache full:https://registry.npmjs.org/get-stream set size:57536 disposed:false
+176 silly fetch manifest universalify@^0.1.0
+177 silly packumentCache full:https://registry.npmjs.org/universalify cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/strip-final-newline 57ms (cache revalidated)
+179 silly packumentCache full:https://registry.npmjs.org/strip-final-newline set size:9328 disposed:false
+180 http fetch GET 200 https://registry.npmjs.org/human-signals 61ms (cache revalidated)
+181 silly packumentCache full:https://registry.npmjs.org/human-signals set size:47322 disposed:false
+182 http fetch GET 200 https://registry.npmjs.org/@vscode%2fsudo-prompt 176ms (cache revalidated)
+183 silly packumentCache full:https://registry.npmjs.org/@vscode%2fsudo-prompt set size:12142 disposed:false
+184 http fetch GET 200 https://registry.npmjs.org/universalify 61ms (cache revalidated)
+185 silly packumentCache full:https://registry.npmjs.org/universalify set size:19431 disposed:false
+186 http fetch GET 200 https://registry.npmjs.org/jsonfile 63ms (cache revalidated)
+187 silly packumentCache full:https://registry.npmjs.org/jsonfile set size:51505 disposed:false
+188 http fetch GET 200 https://registry.npmjs.org/locate-path 73ms (cache revalidated)
+189 silly packumentCache full:https://registry.npmjs.org/locate-path set size:31329 disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-platform-apple 465ms (cache revalidated)
+191 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-platform-apple set size:223867 disposed:false
+192 silly placeDep ROOT fast-glob@3.3.3 OK for: @react-native-community/cli-clean@20.0.2 want: ^3.3.2
+193 silly fetch manifest @nodelib/fs.stat@^2.0.2
+194 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.stat cache-miss
+195 silly fetch manifest @nodelib/fs.walk@^1.2.3
+196 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.walk cache-miss
+197 silly fetch manifest glob-parent@^5.1.2
+198 silly packumentCache full:https://registry.npmjs.org/glob-parent cache-miss
+199 silly fetch manifest merge2@^1.3.0
+200 silly packumentCache full:https://registry.npmjs.org/merge2 cache-miss
+201 http fetch GET 200 https://registry.npmjs.org/glob-parent 64ms (cache revalidated)
+202 silly packumentCache full:https://registry.npmjs.org/glob-parent set size:42445 disposed:false
+203 http fetch GET 200 https://registry.npmjs.org/merge2 74ms (cache revalidated)
+204 silly packumentCache full:https://registry.npmjs.org/merge2 set size:46159 disposed:false
+205 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.walk 74ms (cache revalidated)
+206 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.walk set size:41589 disposed:false
+207 http fetch GET 200 https://registry.npmjs.org/@nodelib%2ffs.stat 110ms (cache revalidated)
+208 silly packumentCache full:https://registry.npmjs.org/@nodelib%2ffs.stat set size:36993 disposed:false
+209 silly fetch manifest typescript@>=4.9.5
+210 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+211 http fetch GET 200 https://registry.npmjs.org/typescript 281ms (cache updated)
+212 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+213 silly placeDep ROOT cosmiconfig@9.0.0 OK for: @react-native-community/cli-config@20.0.2 want: ^9.0.0
+214 silly placeDep ROOT joi@17.13.3 OK for: @react-native-community/cli-config@20.0.2 want: ^17.2.1
+215 silly fetch manifest env-paths@^2.2.1
+216 silly packumentCache full:https://registry.npmjs.org/env-paths cache-miss
+217 silly fetch manifest import-fresh@^3.3.0
+218 silly packumentCache full:https://registry.npmjs.org/import-fresh cache-miss
+219 silly fetch manifest js-yaml@^4.1.0
+220 silly packumentCache full:https://registry.npmjs.org/js-yaml cache-miss
+221 silly fetch manifest parse-json@^5.2.0
+222 silly packumentCache full:https://registry.npmjs.org/parse-json cache-miss
+223 silly fetch manifest @hapi/hoek@^9.3.0
+224 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek cache-miss
+225 silly fetch manifest @hapi/topo@^5.1.0
+226 silly packumentCache full:https://registry.npmjs.org/@hapi%2ftopo cache-miss
+227 silly fetch manifest @sideway/address@^4.1.5
+228 silly packumentCache full:https://registry.npmjs.org/@sideway%2faddress cache-miss
+229 http fetch GET 200 https://registry.npmjs.org/js-yaml 79ms (cache revalidated)
+230 silly packumentCache full:https://registry.npmjs.org/js-yaml set size:152232 disposed:false
+231 silly fetch manifest @sideway/formula@^3.0.1
+232 silly packumentCache full:https://registry.npmjs.org/@sideway%2fformula cache-miss
+233 http fetch GET 200 https://registry.npmjs.org/env-paths 86ms (cache revalidated)
+234 silly packumentCache full:https://registry.npmjs.org/env-paths set size:25456 disposed:false
+235 silly fetch manifest @sideway/pinpoint@^2.0.0
+236 silly packumentCache full:https://registry.npmjs.org/@sideway%2fpinpoint cache-miss
+237 http fetch GET 200 https://registry.npmjs.org/import-fresh 86ms (cache revalidated)
+238 silly packumentCache full:https://registry.npmjs.org/import-fresh set size:21461 disposed:false
+239 http fetch GET 200 https://registry.npmjs.org/parse-json 92ms (cache revalidated)
+240 silly packumentCache full:https://registry.npmjs.org/parse-json set size:48198 disposed:false
+241 http fetch GET 200 https://registry.npmjs.org/@hapi%2fhoek 111ms (cache revalidated)
+242 silly packumentCache full:https://registry.npmjs.org/@hapi%2fhoek set size:121527 disposed:false
+243 http fetch GET 200 https://registry.npmjs.org/@hapi%2ftopo 124ms (cache revalidated)
+244 silly packumentCache full:https://registry.npmjs.org/@hapi%2ftopo set size:36881 disposed:false
+245 http fetch GET 200 https://registry.npmjs.org/@sideway%2fpinpoint 158ms (cache revalidated)
+246 silly packumentCache full:https://registry.npmjs.org/@sideway%2fpinpoint set size:3672 disposed:false
+247 http fetch GET 200 https://registry.npmjs.org/@sideway%2faddress 298ms (cache revalidated)
+248 silly packumentCache full:https://registry.npmjs.org/@sideway%2faddress set size:18241 disposed:false
+249 http fetch GET 200 https://registry.npmjs.org/@sideway%2fformula 231ms (cache revalidated)
+250 silly packumentCache full:https://registry.npmjs.org/@sideway%2fformula set size:6366 disposed:false
+251 silly placeDep ROOT @react-native-community/cli-platform-android@20.0.2 OK for: @react-native-community/cli-doctor@20.0.2 want: 20.0.2
+252 silly placeDep ROOT @react-native-community/cli-platform-apple@20.0.2 OK for: @react-native-community/cli-doctor@20.0.2 want: 20.0.2
+253 silly placeDep ROOT @react-native-community/cli-platform-ios@20.0.2 OK for: @react-native-community/cli-doctor@20.0.2 want: 20.0.2
+254 silly placeDep ROOT command-exists@1.2.9 OK for: @react-native-community/cli-doctor@20.0.2 want: ^1.2.8
+255 silly placeDep ROOT envinfo@7.20.0 OK for: @react-native-community/cli-doctor@20.0.2 want: ^7.13.0
+256 silly placeDep ROOT node-stream-zip@1.15.0 OK for: @react-native-community/cli-doctor@20.0.2 want: ^1.9.1
+257 silly placeDep ROOT ora@5.4.1 OK for: @react-native-community/cli-doctor@20.0.2 want: ^5.4.1
+258 silly placeDep node_modules/@react-native-community/cli-doctor semver@7.7.3 OK for: @react-native-community/cli-doctor@20.0.2 want: ^7.5.2
+259 silly fetch manifest logkitty@^0.7.1
+260 silly packumentCache full:https://registry.npmjs.org/logkitty cache-miss
+261 silly fetch manifest @react-native-community/cli-config-android@20.0.2
+262 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config-android cache-miss
+263 silly fetch manifest fast-xml-parser@^4.4.1
+264 silly packumentCache full:https://registry.npmjs.org/fast-xml-parser cache-miss
+265 silly fetch manifest @react-native-community/cli-config-apple@20.0.2
+266 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config-apple cache-miss
+267 silly fetch manifest bl@^4.1.0
+268 silly packumentCache full:https://registry.npmjs.org/bl cache-miss
+269 silly fetch manifest cli-cursor@^3.1.0
+270 silly packumentCache full:https://registry.npmjs.org/cli-cursor cache-miss
+271 silly fetch manifest log-symbols@^4.1.0
+272 silly packumentCache full:https://registry.npmjs.org/log-symbols cache-miss
+273 http fetch GET 200 https://registry.npmjs.org/log-symbols 73ms (cache revalidated)
+274 silly packumentCache full:https://registry.npmjs.org/log-symbols set size:31977 disposed:false
+275 silly fetch manifest is-interactive@^1.0.0
+276 silly packumentCache full:https://registry.npmjs.org/is-interactive cache-miss
+277 http fetch GET 200 https://registry.npmjs.org/bl 80ms (cache revalidated)
+278 silly packumentCache full:https://registry.npmjs.org/bl set size:183142 disposed:false
+279 silly fetch manifest is-unicode-supported@^0.1.0
+280 silly packumentCache full:https://registry.npmjs.org/is-unicode-supported cache-miss
+281 http fetch GET 200 https://registry.npmjs.org/fast-xml-parser 84ms (cache revalidated)
+282 silly packumentCache full:https://registry.npmjs.org/fast-xml-parser set size:503815 disposed:false
+283 http fetch GET 200 https://registry.npmjs.org/cli-cursor 90ms (cache revalidated)
+284 silly packumentCache full:https://registry.npmjs.org/cli-cursor set size:18913 disposed:false
+285 http fetch GET 200 https://registry.npmjs.org/logkitty 101ms (cache revalidated)
+286 silly packumentCache full:https://registry.npmjs.org/logkitty set size:68390 disposed:false
+287 http fetch GET 200 https://registry.npmjs.org/is-interactive 63ms (cache revalidated)
+288 silly packumentCache full:https://registry.npmjs.org/is-interactive set size:10692 disposed:false
+289 http fetch GET 200 https://registry.npmjs.org/is-unicode-supported 73ms (cache revalidated)
+290 silly packumentCache full:https://registry.npmjs.org/is-unicode-supported set size:19461 disposed:false
+291 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-config-apple 172ms (cache revalidated)
+292 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config-apple set size:96864 disposed:false
+293 http fetch GET 200 https://registry.npmjs.org/@react-native-community%2fcli-config-android 222ms (cache revalidated)
+294 silly packumentCache full:https://registry.npmjs.org/@react-native-community%2fcli-config-android set size:85487 disposed:false
+295 silly placeDep ROOT @react-native-community/cli-config-android@20.0.2 OK for: @react-native-community/cli-platform-android@20.0.2 want: 20.0.2
+296 silly placeDep ROOT logkitty@0.7.1 OK for: @react-native-community/cli-platform-android@20.0.2 want: ^0.7.1
+297 silly fetch manifest ansi-fragments@^0.2.1
+298 silly packumentCache full:https://registry.npmjs.org/ansi-fragments cache-miss
+299 silly fetch manifest dayjs@^1.8.15
+300 silly packumentCache full:https://registry.npmjs.org/dayjs cache-miss
+301 silly fetch manifest yargs@^15.1.0
+302 silly packumentCache full:https://registry.npmjs.org/yargs cache-miss
+303 http fetch GET 200 https://registry.npmjs.org/dayjs 73ms (cache revalidated)
+304 silly packumentCache full:https://registry.npmjs.org/dayjs set size:483478 disposed:false
+305 http fetch GET 200 https://registry.npmjs.org/yargs 92ms (cache revalidated)
+306 silly packumentCache full:https://registry.npmjs.org/yargs set size:743056 disposed:false
+307 http fetch GET 200 https://registry.npmjs.org/ansi-fragments 110ms (cache revalidated)
+308 silly packumentCache full:https://registry.npmjs.org/ansi-fragments set size:17232 disposed:false
+309 silly placeDep ROOT fast-xml-parser@4.5.3 OK for: @react-native-community/cli-config-android@20.0.2 want: ^4.4.1
+310 silly fetch manifest strnum@^1.1.1
+311 silly packumentCache full:https://registry.npmjs.org/strnum cache-miss
+312 http fetch GET 200 https://registry.npmjs.org/strnum 59ms (cache revalidated)
+313 silly packumentCache full:https://registry.npmjs.org/strnum set size:32949 disposed:false
+314 silly placeDep ROOT @react-native-community/cli-config-apple@20.0.2 OK for: @react-native-community/cli-platform-apple@20.0.2 want: 20.0.2
+315 silly placeDep ROOT body-parser@1.20.3 OK for: @react-native-community/cli-server-api@20.0.2 want: ^1.20.3
+316 silly placeDep ROOT errorhandler@1.5.1 OK for: @react-native-community/cli-server-api@20.0.2 want: ^1.5.1
+317 silly placeDep ROOT nocache@3.0.4 OK for: @react-native-community/cli-server-api@20.0.2 want: ^3.0.1
+318 silly placeDep node_modules/@react-native-community/cli-server-api open@6.4.0 OK for: @react-native-community/cli-server-api@20.0.2 want: ^6.2.0
+319 silly placeDep node_modules/@react-native-community/cli-server-api ws@6.2.3 OK for: @react-native-community/cli-server-api@20.0.2 want: ^6.2.3
+320 silly fetch manifest qs@6.13.0
+321 silly packumentCache full:https://registry.npmjs.org/qs cache-miss
+322 silly fetch manifest debug@2.6.9
+323 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+324 silly fetch manifest type-is@~1.6.18
+325 silly packumentCache full:https://registry.npmjs.org/type-is cache-miss
+326 silly fetch manifest raw-body@2.5.2
+327 silly packumentCache full:https://registry.npmjs.org/raw-body cache-miss
+328 silly fetch manifest iconv-lite@0.4.24
+329 silly packumentCache full:https://registry.npmjs.org/iconv-lite cache-miss
+330 silly fetch manifest on-finished@2.4.1
+331 silly packumentCache full:https://registry.npmjs.org/on-finished cache-miss
+332 silly fetch manifest content-type@~1.0.5
+333 silly packumentCache full:https://registry.npmjs.org/content-type cache-miss
+334 http fetch GET 200 https://registry.npmjs.org/content-type 70ms (cache revalidated)
+335 silly packumentCache full:https://registry.npmjs.org/content-type set size:17311 disposed:false
+336 silly fetch manifest is-wsl@^1.1.0
+337 silly packumentCache full:https://registry.npmjs.org/is-wsl cache-miss
+338 http fetch GET 200 https://registry.npmjs.org/on-finished 77ms (cache revalidated)
+339 silly packumentCache full:https://registry.npmjs.org/on-finished set size:23212 disposed:false
+340 http fetch GET 200 https://registry.npmjs.org/debug 78ms (cache revalidated)
+341 silly packumentCache full:https://registry.npmjs.org/debug set size:195840 disposed:false
+342 http fetch GET 200 https://registry.npmjs.org/iconv-lite 83ms (cache revalidated)
+343 silly packumentCache full:https://registry.npmjs.org/iconv-lite set size:118890 disposed:false
+344 http fetch GET 200 https://registry.npmjs.org/type-is 85ms (cache revalidated)
+345 silly packumentCache full:https://registry.npmjs.org/type-is set size:86196 disposed:false
+346 http fetch GET 200 https://registry.npmjs.org/raw-body 88ms (cache revalidated)
+347 silly packumentCache full:https://registry.npmjs.org/raw-body set size:111234 disposed:false
+348 http fetch GET 200 https://registry.npmjs.org/qs 90ms (cache revalidated)
+349 silly packumentCache full:https://registry.npmjs.org/qs set size:264677 disposed:false
+350 http fetch GET 200 https://registry.npmjs.org/is-wsl 72ms (cache revalidated)
+351 silly packumentCache full:https://registry.npmjs.org/is-wsl set size:18741 disposed:false
+352 silly placeDep ROOT @vscode/sudo-prompt@9.3.1 OK for: @react-native-community/cli-tools@20.0.2 want: ^9.0.0
+353 silly placeDep ROOT appdirsjs@1.2.7 OK for: @react-native-community/cli-tools@20.0.2 want: ^1.2.4
+354 silly placeDep node_modules/@react-native-community/cli-tools find-up@5.0.0 OK for: @react-native-community/cli-tools@20.0.2 want: ^5.0.0
+355 silly placeDep ROOT launch-editor@2.12.0 OK for: @react-native-community/cli-tools@20.0.2 want: ^2.9.1
+356 silly placeDep node_modules/@react-native-community/cli-tools mime@2.6.0 OK for: @react-native-community/cli-tools@20.0.2 want: ^2.4.1
+357 silly placeDep node_modules/@react-native-community/cli-tools semver@7.7.3 OK for: @react-native-community/cli-tools@20.0.2 want: ^7.5.2
+358 silly fetch manifest @react-navigation/native@^6.0.0
+359 silly packumentCache full:https://registry.npmjs.org/@react-navigation%2fnative cache-miss
+360 http fetch GET 200 https://registry.npmjs.org/@react-navigation%2fnative 118ms (cache revalidated)
+361 silly packumentCache full:https://registry.npmjs.org/@react-navigation%2fnative set size:962284 disposed:false
+362 silly fetch manifest react@*
+363 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+364 http fetch GET 200 https://registry.npmjs.org/react 93ms (cache revalidated)
+365 silly packumentCache full:https://registry.npmjs.org/react set size:6268071 disposed:false
+366 silly fetch manifest react-native@*
+367 silly packumentCache full:https://registry.npmjs.org/react-native cache-miss
+368 http fetch GET 200 https://registry.npmjs.org/react-native 81ms (cache revalidated)
+369 silly packumentCache full:https://registry.npmjs.org/react-native set size:14385278 disposed:false
+370 silly fetch manifest @types/react@^19.1.1
+371 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+372 http fetch GET 200 https://registry.npmjs.org/@types%2freact 88ms (cache revalidated)
+373 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2520331 disposed:false
+374 verbose stack Error: could not resolve
+374 verbose stack     at PlaceDep.failPeerConflict (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+374 verbose stack     at new PlaceDep (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+374 verbose stack     at #buildDepStep (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:917:18)
+374 verbose stack     at async Arborist.buildIdealTree (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+374 verbose stack     at async Promise.all (index 1)
+374 verbose stack     at async Arborist.reify (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+374 verbose stack     at async Install.exec (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/commands/install.js:150:5)
+374 verbose stack     at async Npm.exec (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/npm.js:207:9)
+374 verbose stack     at async module.exports (/Users/brandonsandoval/.nvm/versions/node/v20.19.5/lib/node_modules/npm/lib/cli/entry.js:74:5)
+375 error code ERESOLVE
+376 error ERESOLVE could not resolve
+377 error
+378 error While resolving: @react-navigation/bottom-tabs@6.6.1
+378 error Found: @react-navigation/native@7.1.20[2m[22m
+378 error [2mnode_modules/@react-navigation/native[22m
+378 error   [95mpeer[39m @react-navigation/native@"^7.1.20" from @react-navigation/elements@2.8.2[2m[22m
+378 error   [2mnode_modules/@react-navigation/elements[22m
+378 error     @react-navigation/elements@"^2.8.2" from @react-navigation/native-stack@7.6.3[2m[22m
+378 error     [2mnode_modules/@react-navigation/native-stack[22m
+378 error       @react-navigation/native-stack@"^7.6.3" from the root project
+378 error   [95mpeer[39m @react-navigation/native@"^7.1.20" from @react-navigation/native-stack@7.6.3[2m[22m
+378 error   [2mnode_modules/@react-navigation/native-stack[22m
+378 error     @react-navigation/native-stack@"^7.6.3" from the root project
+378 error   1 more (the root project)
+378 error
+378 error Could not resolve dependency:
+378 error [95mpeer[39m @react-navigation/native@"^6.0.0" from @react-navigation/bottom-tabs@6.6.1[2m[22m
+378 error [2mnode_modules/@react-navigation/bottom-tabs[22m
+378 error   @react-navigation/bottom-tabs@"^6.6.1" from the root project
+378 error
+378 error Conflicting peer dependency: @react-navigation/native@6.1.18[2m[22m
+378 error [2mnode_modules/@react-navigation/native[22m
+378 error   [95mpeer[39m @react-navigation/native@"^6.0.0" from @react-navigation/bottom-tabs@6.6.1[2m[22m
+378 error   [2mnode_modules/@react-navigation/bottom-tabs[22m
+378 error     @react-navigation/bottom-tabs@"^6.6.1" from the root project
+378 error
+378 error Fix the upstream dependency conflict, or retry
+378 error this command with --force or --legacy-peer-deps
+378 error to accept an incorrect (and potentially broken) dependency resolution.
+379 error
+379 error
+379 error For a full report see:
+379 error /Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_15_51_126Z-eresolve-report.txt
+380 silly unfinished npm timer reify 1763338551380
+381 silly unfinished npm timer reify:loadTrees 1763338551382
+382 silly unfinished npm timer idealTree:buildDeps 1763338551534
+383 silly unfinished npm timer idealTree:node_modules/@react-navigation/bottom-tabs 1763338554294
+384 verbose cwd /Users/brandonsandoval/Snitch
+385 verbose os Darwin 24.6.0
+386 verbose node v20.19.5
+387 verbose npm  v10.8.2
+388 verbose exit 1
+389 verbose code 1
+390 error A complete log of this run can be found in: /Users/brandonsandoval/Snitch/.npm-cache/_logs/2025-11-17T00_15_51_126Z-debug-0.log
