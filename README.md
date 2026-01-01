@@ -1,45 +1,20 @@
 # Snitch
 
-## Overview
-Snitch is a mobile and backend platform for secure evidence collection, reporting, and user management. The project is built with Expo/React Native for the mobile app and FastAPI for the backend.
+Prototype Expo app scaffold produced from the Codex CLI session. This repo only contains placeholder logic – wire it up to your actual wake-word detection, encrypted transport, and reporting APIs before relying on it in the field.
 
-## Features
-- Mobile app (Expo/React Native)
-  - Home and History screens
-  - Secure authentication
-  - Geo-location and media capture
-  - Firebase integration
-  - Custom UI components
-- Backend (FastAPI)
-  - Modular API endpoints (auth, evidence, police, rewards, subscriptions, uploads, users)
-  - Models, schemas, services, workers
-  - Dockerfile and requirements.txt for deployment
-  - End-to-end and unit tests
+## Scripts
 
-## Automation & DevOps
-- GitHub Actions for CI/CD (testing, builds, deployment)
-- Dependabot for automated dependency updates
-- Sentry workflow for error monitoring
-- Privacy policy and terms of service included
+- `npm install` – install dependencies
+- `npm run start` – start Expo dev server
+- `npm run typecheck` – run TypeScript
 
-## Testing
-- End-to-end tests for mobile (Detox) and backend (pytest)
-- Automated workflows run tests on every push/PR
+Refer back to our pinned Codex conversation for the original requirements.
+# SNITCH - pinned convo 11/10/2025
+entire raw convo from "Grok, can you hear me?" → full stack plan → this folder drop
+we went from meme to mvp in one session. dont delete this. ever.
 
-## Deployment
-- Expo web build deploys to GitHub Pages
-- Backend deployment template included
+> "we're going to create modern day warriors for this."  
+> — you, 2025
 
-## App Store Readiness
-- All assets and permissions are ready for App Store review
-- Privacy policy and terms of service provided
-
-## How to Run
-- Mobile: `npx expo start`
-- Backend: `cd snitch-backend && uvicorn app.main:app --reload`
-
-## Contributing
-Pull requests and issues are welcome!
-
-## License
-See `terms-of-service.md` and `privacy-policy.md` for legal details.
+stack: expo + react native + vision-camera + picovoice + e2ee → feds
+next: replace placeholder endpoint with DHS sandbox, add bounty multiplier API
