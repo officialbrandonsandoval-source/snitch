@@ -1,0 +1,43 @@
+{
+  "family": "snitch-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::093711202474:role/snitch-ecs-task-role",
+  "taskRoleArn": "arn:aws:iam::093711202474:role/snitch-ecs-task-role",
+  "containerDefinitions": [
+    {
+      "name": "backend",
+      "image": "093711202474.dkr.ecr.us-east-1.amazonaws.com/snitch-backend:latest",
+      "essential": true,
+      "portMappings": [
+        { "containerPort": 8000, "hostPort": 8000 }
+      ],
+      "environment": [
+        {"name": "DATABASE_URL", "value": "postgresql+psycopg2://snitch:snitch@localhost:5432/snitch"},
+{"name": "SECRET_KEY", "value": "3a5b521310386f1822ed229d03144e5144eb5bbc5e6ef6f0ff3647cc91c5f09b"},
+{"name": "CLOUDINARY_CLOUD_NAME", "value": "your_cloud_name"},
+{"name": "CLOUDINARY_API_KEY", "value": "your_api_key"},
+{"name": "CLOUDINARY_API_SECRET", "value": "your_api_secret"},
+{"name": "SENTRY_DSN", "value": "your_sentry_dsn (optional)"},
+{"name": "JWT_SECRET", "value": "your_jwt_secret"},
+{"name": "AWS_ACCESS_KEY", "value": "your_aws_access_key"},
+{"name": "AWS_SECRET_KEY", "value": "your_aws_secret_key"},
+{"name": "AWS_BUCKET_NAME", "value": "your_bucket_name"},
+{"name": "STRIPE_SECRET_KEY", "value": "your_stripe_secret_key"},
+{"name": "STRIPE_WEBHOOK_SECRET", "value": "your_stripe_webhook_secret"},
+{"name": "REDIS_URL", "value": "redis://localhost:6379/0"},
+{"name": "REDIS_URL", "value": "redis://localhost:6379/0"}
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/snitch-backend",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      }
+    }
+  ]
+}

@@ -3,9 +3,11 @@ uvicorn
 sqlalchemy[asyncio]
 asyncpg
 pydantic
+pydantic-settings
 python-dotenv
 alembic
 celery
 redis
 boto3
 stripe
+python-multipart

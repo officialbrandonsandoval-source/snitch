@@ -1,6 +1,8 @@
-# Example end-to-end test for FastAPI backend
-import requests
+from fastapi.testclient import TestClient
+from app.main import app
+
+client = TestClient(app)
 
 def test_health_endpoint():
-    response = requests.get('http://localhost:8000/api/v1/health/')
+    response = client.get("/api/v1/health/")
     assert response.status_code == 200
