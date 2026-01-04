@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: snitch-backend
+    env: python
+    rootDir: snitch-backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+      - key: DATABASE_URL
+        fromDatabase:
+          name: snitch-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_ALGORITHM
+        value: HS256
+      - key: AWS_REGION
+        value: us-east-1
+      - key: AWS_ACCESS_KEY
+        sync: false
+      - key: AWS_SECRET_KEY
+        sync: false
+      - key: AWS_BUCKET_NAME
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+
+databases:
+  - name: snitch-db
+    databaseName: snitch
+    user: snitch
+    plan: free
